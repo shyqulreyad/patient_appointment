@@ -84,7 +84,7 @@ class SuperAdminController extends Controller
     public function get_auth($patient_id)
     {
         if($patient_id != 0){
-            $auth_list = "<option value=''>Select Auth </option>";
+            $auth_list = "<option value=''>Select Auth from drop down</option>";
             if(Auth::select('auth_name','id')->where('patient_id', $patient_id)->exists()){
                 $auths_db= Auth::select('auth_name','id')->where('patient_id', $patient_id)->get();
                 foreach($auths_db as $auth_db){
