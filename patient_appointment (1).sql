@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 02, 2022 at 12:15 AM
+-- Generation Time: Nov 02, 2022 at 06:33 AM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 7.4.29
 
@@ -310,7 +310,7 @@ CREATE TABLE `providers` (
 --
 
 INSERT INTO `providers` (`id`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1, 'Provider', 'provider@gmail.com', NULL, '$2y$10$j5ffAhbEYmwiT37YEUvshuvydLoOxdPD1WQ.MD1i.zCnHqRfgYzJG', NULL, '2022-11-01 17:03:47', '2022-11-01 17:03:47');
+(1, 'Provider', 'provider@live.com', NULL, '$2y$10$j5ffAhbEYmwiT37YEUvshuvydLoOxdPD1WQ.MD1i.zCnHqRfgYzJG', NULL, '2022-11-01 17:03:47', '2022-11-01 17:03:47');
 
 -- --------------------------------------------------------
 
