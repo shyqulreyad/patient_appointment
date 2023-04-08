@@ -115,6 +115,7 @@ active
                         type:"GET",
                         url:"{{url('get_service')}}/"+auth_id,
                         success:function(res){
+                        console. log(res) 
                             if(res){
                             console.log(res.success);
                         $('#service_id').html(res.success);
